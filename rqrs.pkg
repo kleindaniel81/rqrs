@@ -1,0 +1,23 @@
+v 3
+d rqrs: Stata module to install required community-contributed packages
+d
+d rqrs checks whether a specified community-contributed command is found along 
+d the ado-path and, if it is not, downloads and installs the required package 
+d that contains the command. A package typically contains one or more ado-files 
+d and one or more corresponding help files. Packages are downloaded from the 
+d SSC or, optionally, from another location indicated by a directory or URL.
+d
+d KW: package install
+d KW: community contributed
+d KW: SSC
+d KW: SJ
+d
+d Requires: Stata version 11.2
+d
+d Distribution-Date: 20210111
+d
+d Author: Daniel Klein, University of Kassel
+d Support: email klein.daniel.81@gmail.com
+d
+f rqrs.ado
+f rqrs.sthlp
